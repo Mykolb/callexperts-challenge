@@ -1,0 +1,91 @@
+#search-container {
+    border: 1px solid white;
+    border-radius: 1000px;
+    max-width: fit-content;
+    height: 66px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+#search-container .css-5xn5lu-MuiInputBase-root-MuiInput-root.Mui-disabled:before {
+    border-bottom-style: none;
+}
+
+#search-container span {
+    position: absolute;
+    height: 30px;
+    margin-top: 15px;
+    width: auto;
+}
+
+#seach-inner-container {
+    margin-top: 7px;
+}
+
+.MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline.css-5xn5lu-MuiInputBase-root-MuiInput-root {
+    margin-left: 20px;
+}
+
+
+label#mui-1-label,
+label#mui-2-label,
+label#mui-3-label,
+label#mui-4-label {
+    padding-left: 30px;
+    padding-top: 5px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.search-input:hover {
+    background-color: #EBEBEB;
+    border-radius: 32px;
+    background-clip: padding-box;
+}
+
+#search-icon {
+    background-color: #FF385C;
+    color: #FFFFFF;
+    border-radius: 180px;
+    padding: 12px;
+}
+
+/* mobile styles */
+@media (max-width: 480px) {
+
+    #search-container {
+        max-width: inherit;
+        height: 50px;
+        margin: 20px;
+    }
+
+    .search-input.css-1u3bzj6-MuiFormControl-root-MuiTextField-root:not(.search-input:nth-of-type(1)) {
+        display: none;
+    }
+
+    .divi {
+        display: none;
+    }
+
+    .search-input:hover  {
+        background-color: unset;
+    }
+    /* //where are you going label */
+    .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline.css-5xn5lu-MuiInputBase-root-MuiInput-root {
+        margin: unset;
+    }
+
+    label#mui-1-label {
+        display: none;
+    }
+
+    #search-icon {
+        display: flex;
+        justify-content: flex-start;
+        position:absolute;
+        bottom: 20px;
+        background-color: unset;
+        color: #FF385C;
+        margin-left: 6%;
+    }
+}

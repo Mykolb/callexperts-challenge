@@ -1,0 +1,56 @@
+#nav-container {
+    max-width: 2000px;
+    background-color: #000000;
+    position: sticky;
+    margin:0 auto;
+  }
+
+#nav-container1, #nav-container2, #nav-container3 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 10px 16px;
+
+
+}
+
+
+.menu-links.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+    text-decoration: underline #FFFFFF;
+    color: #EBEBEB;
+    
+}
+
+.menu-links-3.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+    background-color: #262626;
+    border-radius: 35px;
+}
+
+#menu-icons {
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+}
+
+#hamburger-icon {
+    color: #000000;
+    margin: 2%;
+}
+
+#logo {
+    color: #FFFFFF;
+}
+
+
+
+/* mobile styles */
+
+@media (max-width: 414px) {
+    #nav-container1, #nav-container2, #nav-container3 {
+        display: none;
+    }
+
+    
+}

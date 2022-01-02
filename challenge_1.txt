@@ -1,0 +1,9 @@
+Recreate their airbnb landing page (https://www.airbnb.com) using React and Material UI.
+
+-Do not worry about tweaking it to make it "perfect", just try to make it look good and fairly close to the landing page.
+-Do not implement search functionality, navigating pages, etc, just worry about the look and feel of the page
+-Have it resize for mobile.
+-Inspect the source code to get images.
+
+The primary goal of this exercise is to show that you can create a UI given a set of requirements.
+The exact method you used to reach the end goal will be scrutinized less than the end product itself.
