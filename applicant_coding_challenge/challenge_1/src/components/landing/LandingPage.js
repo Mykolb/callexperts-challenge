@@ -136,7 +136,7 @@ const LandingPage = () => {
                       <div>
                         <Button
                           variant="contained"
-                          backgroundColor="FFFFFF"
+                          backgroundColor="#FFFFFF"
                           className="discover-buttons"
                         >
                           Experiences
@@ -150,7 +150,7 @@ const LandingPage = () => {
                       <div>
                         <Button
                           variant="contained"
-                          backgroundColor="FFFFFF"
+                          backgroundColor="#FFFFFF"
                           className="discover-buttons"
                         >
                           Online Experiences
@@ -169,7 +169,7 @@ const LandingPage = () => {
                         <div>
                           <Button
                             variant="contained"
-                            backgroundColor="FFFFFF"
+                            backgroundColor="#FFFFFF"
                             className="discover-buttons"
                             id='host-btn'
                           >
