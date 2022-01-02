@@ -251,7 +251,7 @@
   margin-bottom: 3%;
 }
 
-.tabpanel.css-13xfq8m-MuiTabPanel-root {
+.MuiTabPanel-root.tabpanel {
   text-align: left;
   font-size: 14px;
   color: #222222;
