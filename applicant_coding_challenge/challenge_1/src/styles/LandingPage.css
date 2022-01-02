@@ -293,7 +293,7 @@
 
   #gift-card-header1 {
     font-size: 16px;
-    margin-left: 39%;
+    margin-left: 35%;
     bottom: 180px;
     top: unset;
   }                                                                            
@@ -324,7 +324,7 @@
     padding-left: 220px;
   }
 
-  .card.css-17wgu65-MuiPaper-root-MuiCard-root {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.card {
     flex: 0 0 auto;
     max-width: 200px;
     margin: 0 2% 0 2%;

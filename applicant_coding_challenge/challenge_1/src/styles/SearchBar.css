@@ -59,7 +59,7 @@ label#mui-4-label {
         margin: 20px;
     }
 
-    .search-input.css-1u3bzj6-MuiFormControl-root-MuiTextField-root:not(.search-input:nth-of-type(1)) {
+    .search-input:not(.search-input:nth-of-type(1)) {
         display: none;
     }
 
@@ -71,7 +71,7 @@ label#mui-4-label {
         background-color: unset;
     }
     /* //where are you going label */
-    .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline.css-5xn5lu-MuiInputBase-root-MuiInput-root {
+    .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline {
         margin: unset;
     }
 
