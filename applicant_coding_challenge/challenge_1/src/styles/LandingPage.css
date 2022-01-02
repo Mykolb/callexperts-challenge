@@ -145,12 +145,12 @@
   text-align: left;
 }
 
-.discover-buttons.css-sghohy-MuiButtonBase-root-MuiButton-root {
+.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.discover-buttons {
   background-color: #ffffff;
   color: #222222;
   border-radius: 8px;
   padding: 14px 24px;
-  font-weight: 00;
+  font-weight: 600;
 }
 
 .discover-buttons.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
