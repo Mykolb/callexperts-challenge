@@ -17,13 +17,13 @@
 }
 
 
-.menu-links.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+li.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.menu-links:hover {
     text-decoration: underline #FFFFFF;
     color: #EBEBEB;
     
 }
 
-.menu-links-3.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+li.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.menu-links-3:hover {
     background-color: #262626;
     border-radius: 35px;
 }

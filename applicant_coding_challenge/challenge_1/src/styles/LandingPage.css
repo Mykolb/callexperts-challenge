@@ -153,8 +153,8 @@
   font-weight: 600;
 }
 
-.discover-buttons.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
-  background-color: #ebebeb;
+.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.discover-buttons:hover {
+  background-color: #ebebeb !important;
 }
 
 #todo-container,

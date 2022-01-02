@@ -7,7 +7,7 @@
     margin-bottom: 30px;
 }
 
-#search-container .css-5xn5lu-MuiInputBase-root-MuiInput-root.Mui-disabled:before {
+.MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline::before {
     border-bottom-style: none;
 }
 
@@ -22,7 +22,7 @@
     margin-top: 7px;
 }
 
-.MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline.css-5xn5lu-MuiInputBase-root-MuiInput-root {
+.MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline {
     margin-left: 20px;
 }
 
