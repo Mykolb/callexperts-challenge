@@ -2,6 +2,7 @@ const {
   addToDb,
   selectWhere,
   unpredictableApiResponse,
+  colorDb,
 } = require("./utils.js");
 
 /**TODO: Test 1 - Use a util function
@@ -9,7 +10,11 @@ const {
  *      addToDb inserts an item, and returns a promise containing the id of the inserted item
  *      The color should be orange, have an id of 5, and primary should be false
  */
-const test1 = () => {};
+const test1 = () => {
+  //PASSING!
+  const color = { id: 5, color: "orange", primary: false };
+  return addToDb(color);
+};
 
 /**  TODO: Test 2 - return the color of the item with id of 3
  *Use the selectWhere function. selectWhere takes to arguments, the first is the key, to search and the second is the value to match.
@@ -17,20 +22,68 @@ const test1 = () => {};
  * 1. Use the selectWhere function to get a promise containing the list of items with an id of 3.
  * 2. return the list of colors of matching items (Hint the answer would be ["green"])
  */
-const test2 = () => {};
+const test2 = async () => {
+  //PASSING!
+  // results in {"color": "green", "id": 3, "primary": false}
+  let res = new Promise((resolve, reject) => {
+    const err = false;
+    if (!err) {
+      console.log(resolve(selectWhere("id", 3)));
+    } else {
+      reject("Something is screwed up.");
+    }
+  });
+
+  // reference, this works too
+  // Promise.all([colorDb])
+  // let res = await selectWhere('id', 3)
+
+  let val = await res;
+  console.log(val[0]);
+  if (val[0]["color"] === "green") {
+    // console.log('yep')
+    // console.log(val[0]['color'])
+    return [val[0]["color"]];
+  }
+};
 
 /**TODO: Test 3 - Return multiple items with selectWhere util
  * 1. Use the selectWhere function to retrieve a promise containing the list of items that are primary colors. (This should be just 2 items)
  * 2. return only the ids of these items (Hint, the answer would return [1,2])
  */
-const test3 = () => {};
+const test3 = async () => {
+  Promise.all([colorDb]);
+  let res2 = await selectWhere("primary", true);
+  // console.log('t', res2)
+
+  let val2 = await res2;
+  if (["primary"]) {
+    //  console.log([val[0]['id'], val[1]['id']])
+    return [val2[0]["id"], val2[1]["id"]];
+  }
+};
 
 /**TODO: Test 4 - Test multiple asynchronous steps
  * 1. Add a new color to the colors database with an id of 8, the color brown, and primary is false
  * 2. Read the color from the database that you just inserted (Hint: addToDb returns the id of the item just inserted)
  * 3. Return only the color value from the database. In this case, the function would return "brown"
  */
-const test4 = () => {};
+const test4 = async () => {
+  //added color to db
+  const newColor = { id: 8, color: "brown", primary: false };
+  await addToDb(newColor);
+  //return color
+  Promise.all(colorDb);
+  let res3 = await selectWhere("color", "brown");
+  //  console.log(res3)
+
+  let val3 = await res3;
+  console.log(val3[0]);
+  if (val3[0]["color"] === "brown") {
+    //  console.log('return something')
+    return val3[0]["color"];
+  }
+};
 
 /**TODO: Bonus - Handle unpredictable promises
  * Bonus: Make a decision based on an unpredictable api response, call again if true, stop process if false, and count the number of times the function was called
