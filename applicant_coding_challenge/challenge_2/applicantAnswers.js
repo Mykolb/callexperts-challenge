@@ -30,7 +30,7 @@ const test2 = async () => {
     if (!err) {
       console.log(resolve(selectWhere("id", 3)));
     } else {
-      reject("Something is screwed up.");
+      reject("Something went wrong. Blame Mykol");
     }
   });
 
@@ -41,8 +41,7 @@ const test2 = async () => {
   let val = await res;
   console.log(val[0]);
   if (val[0]["color"] === "green") {
-    // console.log('yep')
-    // console.log(val[0]['color'])
+    // console.log("yep")
     return [val[0]["color"]];
   }
 };
@@ -52,13 +51,12 @@ const test2 = async () => {
  * 2. return only the ids of these items (Hint, the answer would return [1,2])
  */
 const test3 = async () => {
-  Promise.all([colorDb]);
+  Promise.all(colorDb);
   let res2 = await selectWhere("primary", true);
-  // console.log('t', res2)
+
 
   let val2 = await res2;
   if (["primary"]) {
-    //  console.log([val[0]['id'], val[1]['id']])
     return [val2[0]["id"], val2[1]["id"]];
   }
 };
@@ -75,12 +73,11 @@ const test4 = async () => {
   //return color
   Promise.all(colorDb);
   let res3 = await selectWhere("color", "brown");
-  //  console.log(res3)
 
   let val3 = await res3;
   console.log(val3[0]);
   if (val3[0]["color"] === "brown") {
-    //  console.log('return something')
+    //  console.log("return something")
     return val3[0]["color"];
   }
 };

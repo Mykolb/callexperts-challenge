@@ -1,8 +1,5 @@
 #nav-container {
-    max-width: 2000px;
     background-color: #000000;
-    position: sticky;
-    margin:0 auto;
   }
 
 #nav-container1, #nav-container2, #nav-container3 {

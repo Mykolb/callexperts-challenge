@@ -4,17 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "server": "nodemon applicantAnswers.js",
-    "start": "node applicantAnswers.js"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.3.1"
-  },
-  "dependencies": {
-    "nodemon": "^2.0.15"
   }
 }
