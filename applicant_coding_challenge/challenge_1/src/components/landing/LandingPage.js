@@ -48,7 +48,7 @@ const LandingPage = () => {
         <Container id="gift-card-inner-container">
           <img src={GiftCardImg} alt="" id="gift-card-img" />
           <Box id="test1">
-            <h2 id="gift-card-header1">introducing</h2>
+            <h2 id="gift-card-header1">Introducing</h2>
             <h2 id="gift-card-header2">
               Airbnb {"\n"} gift cards {"\n"}
               <Button variant="contained" id="shop-btn">

@@ -72,7 +72,7 @@ label#mui-4-label {
     }
     /* //where are you going label */
     .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.Mui-disabled.MuiInputBase-formControl.MuiInputBase-multiline {
-        margin: unset;
+        margin: 5px 0 0 0;
     }
 
     label#mui-1-label {
@@ -83,9 +83,10 @@ label#mui-4-label {
         display: flex;
         justify-content: flex-start;
         position:absolute;
-        bottom: 20px;
+        bottom: 30px;
         background-color: unset;
         color: #FF385C;
-        margin-left: 6%;
+        margin-left: .5%;
+        padding: unset;
     }
 }
