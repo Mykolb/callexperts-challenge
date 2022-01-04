@@ -79,7 +79,7 @@ label#mui-4-label {
         display: none;
     }
 
-    #search-icon {
+    .MuiContainer-root.MuiContainer-maxWidthLg#search-icon {
         display: flex;
         justify-content: flex-start;
         position:absolute;
