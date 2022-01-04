@@ -9,8 +9,6 @@
     line-height: 20px;
     font-weight: 400;
     padding: 10px 16px;
-
-
 }
 
 
@@ -43,7 +41,6 @@ li.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.menu-links-3:hover {
 
 
 /* mobile styles */
-
 @media (max-width: 480px) {
     #nav-container1, #nav-container2, #nav-container3 {
         display: none;

@@ -33,7 +33,7 @@ const LandingPage = () => {
       {/* top section */}
       <Container id="top-container">
         <Container id="top-inner-container">
-          <img src={TentImg} alt="" id="gift-card-img" />
+          <img src={TentImg} alt="" id="tent-img" />
           <h1 id="main-header">
             Not sure where to go? Perfect.{"\n"}
             <Button variant="contained" id="top-btn">
