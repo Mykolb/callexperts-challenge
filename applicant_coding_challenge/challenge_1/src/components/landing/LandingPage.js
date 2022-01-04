@@ -123,12 +123,11 @@ const LandingPage = () => {
         <Container id="middle-container">
           <Container id="middle-inner-container">
             {/* Discover airbnb experiences section */}
+            <h2 id="discover-header">Discover Airbnb Experiences</h2>
             <Grid container xs={12}>
               <Grid item xs={12}>
                 {/* 2 photos side by side */}
                 <Box id="todo-container">
-                  <h2 id="discover-header">Discover Airbnb Experiences</h2>
-
                   <Box sx={{ display: "flex" }} id="todo-inner-container">
                     <img src={ToDoHome} alt="" className="things-to-do-img" />
                     <h2 id="todo-home-header">
