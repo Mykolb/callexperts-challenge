@@ -168,8 +168,10 @@
 #todo-container,
 #todo-inner-container {
   position: relative;
-  width: 1600px;
+  /* width: 1600px; */
   margin: 0 auto;
+  max-width: 100%;
+  width: fit-content;
 }
 
 #todo-home-header {
@@ -200,7 +202,7 @@
   max-width: 788px;
   max-height: 788px;
   border-radius: 15px;
-  margin: 2%;
+  margin: .5%;
 }
 
 #hosting-img-container, #hosting-img-inner-container {
